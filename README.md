@@ -33,3 +33,21 @@ CSS: For making it look clean and presentable.
 
 JavaScript: For the magic—listening to user input and doing the math.
 
+How to Use the Unit Converter
+Enter a numerical value in the input field
+
+Select the unit you want to convert from in the first dropdown
+
+Select the unit you want to convert to in the second dropdown
+
+View the converted result instantly
+
+Switch between different measurement categories (Length, Weight, Temperature) using the buttons at the top
+
+The converter supports:
+
+Length: Meters, Kilometers, Miles, Feet, Inches
+
+Weight: Kilograms, Grams, Pounds, Ounces
+
+Temperature: Celsius, Fahrenheit, Kelvin
