@@ -1,0 +1,106 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f6fb;
+    margin: 0;
+    padding: 0;
+    transition: background 0.2s, color 0.2s;
+}
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    padding: 32px 24px;
+    transition: background 0.2s, color 0.2s;
+}
+h1 {
+    text-align: center;
+    color: #2d3a4b;
+    margin-bottom: 24px;
+}
+.converter label {
+    display: block;
+    margin-bottom: 8px;
+    color: #444;
+}
+.converter select, .converter input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    font-size: 1rem;
+}
+.actions {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+#convert-btn, #swap-btn, #copy-btn {
+    flex: 1;
+    padding: 10px 0;
+    background: #4f8cff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#swap-btn, #copy-btn {
+    max-width: 48px;
+    padding: 10px 0;
+    background: #e0e7ef;
+    color: #2d3a4b;
+    font-size: 1.2rem;
+}
+#swap-btn:hover, #copy-btn:hover {
+    background: #b6c6e3;
+}
+#convert-btn:hover {
+    background: #2563eb;
+}
+#result {
+    margin-top: 18px;
+    font-size: 1.1rem;
+    color: #2563eb;
+    text-align: center;
+    min-height: 24px;
+}
+.options {
+    margin-top: 18px;
+    text-align: center;
+}
+.dark-toggle {
+    font-size: 1rem;
+    color: #444;
+    cursor: pointer;
+}
+body.dark, .container.dark {
+    background: #23272f;
+    color: #e0e7ef;
+}
+body.dark h1, .container.dark h1 {
+    color: #e0e7ef;
+}
+body.dark .converter label, body.dark .dark-toggle {
+    color: #e0e7ef;
+}
+body.dark .container {
+    background: #2d323c;
+}
+body.dark #convert-btn, body.dark #swap-btn, body.dark #copy-btn {
+    background: #2563eb;
+    color: #fff;
+}
+body.dark #swap-btn, body.dark #copy-btn {
+    background: #3b4252;
+    color: #e0e7ef;
+}
+body.dark #swap-btn:hover, body.dark #copy-btn:hover {
+    background: #4c566a;
+}
+body.dark #result {
+    color: #8ecaff;
+}
